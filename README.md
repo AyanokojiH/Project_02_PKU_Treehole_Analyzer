@@ -1,2 +1,3 @@
-# Ayano-codeworld
-Try to change the authorization or Uuid to avoid 401 error.
+LRB1是一个非常小的训练集，因此所做出的判断可能非常偏颇。
+这个程序主要用来分析小红书集美和郭楠（尤其是颜值博主）评论区的风向。
+如果有时间，我将补充LRB1训练集以增强准确度。
