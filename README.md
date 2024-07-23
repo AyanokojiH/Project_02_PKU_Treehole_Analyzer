@@ -1,2 +1,2 @@
 # Ayano-codeworld
-Try to change the authorization or Uuid to avoid 401 error.
+A gift of pkutreehole for only PKU students. The authorization currently is not usable, so please try to refresh the authorization token on your PKU treehole website.
