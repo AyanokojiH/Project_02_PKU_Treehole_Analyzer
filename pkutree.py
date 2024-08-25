@@ -479,8 +479,11 @@ class send_wechat_message:
                 timess = timestamp_to_datetime(c['timestamp'])
                 if self.kw in content:
                     if pid not in sended_list:
-                        itchat.send(f"At {timess},in {pid} said {content} ", toUserName=friends[0]['UserName'])
-                        sended_list.append(pid)
+                        try:
+                            itchat.send(f"At {timess},in {pid} said {content} ", toUserName=friends[0]['UserName'])
+                            sended_list.append(pid)
+                        except:
+                            print("没有找到好友信息。您输入的备注正确吗?"）
 
             num+=1
             print(f"已经监听第{num}次")
